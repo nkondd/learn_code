@@ -1,3 +1,31 @@
+<link href="style.css" rel="stylesheet"></link>
+<a class="top-link hide" href="#top">↑</a>
+<a name="top"></a>
+
+## TypeScript
+
+1. [What is TypeScript and what is its purpose?](#what-is-typescript-and-what-is-its-purpose)
+
+2. [Які типи даних вбудовані в TypeScript?](#які-типи-даних-вбудовані-в-typescript)
+
+3. [Що таке модулі в Typescript?](#що-таке-модулі-в-typescript)
+
+4. [Як працювати з об’єктами в TypeScript? ](#як-працювати-з-обєктами-в-typescript)
+
+5. [Що таке інтерфейс у TypeScript?](#що-таке-інтерфейс-у-typescript)
+
+6. [Як працювати з масивами в TypeScript?](#як-працювати-з-масивами-в-typescript)
+
+7. [Поясніть generics (узагальнення) у TypeScript](#поясніть-generics-узагальнення-у-typescript)
+
+8. [Що таке Enum і як він реалізується в TypeScript?](#що-таке-enum-і-як-він-реалізується-в-typescript)
+
+9. [Що таке Union type?](#що-таке-union-type)
+
+10. [Які є universal та impossible типи?](#які-є-universal-та-impossible-типи)
+
+11. [Що таке explicit (явні) та inferred (виведені) типи?](#що-таке-explicit-явні-та-inferred-виведені-типи)
+
 ### What is TypeScript and what is its purpose?
 
 [CheatSheet](https://mate-academy.github.io/fe-program/js/extra/typescript)
