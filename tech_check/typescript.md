@@ -1,7 +1,3 @@
-<link href="style.css" rel="stylesheet"></link>
-<a class="top-link hide" href="#top">↑</a>
-<a name="top"></a>
-
 ## TypeScript
 
 1. [What is TypeScript and what is its purpose?](#what-is-typescript-and-what-is-its-purpose)
@@ -44,6 +40,8 @@ JavaScript - це мова сценаріїв, тоді як **TypeScript - це
 
 * Маніпуляція з DOM: Ви можете використовувати TypeScript для **керування DOM для додавання або видалення елементів клієнтської веб-сторінки.**
 
+[Back to top](#typescript)
+
 ### Які типи даних вбудовані в TypeScript?
 
 * **Number**: використовується для відображення значень чисел. Усі числа в TypeScript зберігаються як **значення з плаваючою комою**.
@@ -65,6 +63,8 @@ JavaScript - це мова сценаріїв, тоді як **TypeScript - це
 **Внутрішні** модулі тепер можна замінити за допомогою Typescript `namespace`.
 
 **Зовнішні** модулі, які використовуються для визначення та завантаження залежностей між кількома зовнішніми файлами js. Якщо використовується лише один файл js, то зовнішні модулі не мають значення.
+
+[Back to top](#typescript)
 
 ### Як працювати з об’єктами в TypeScript? 
 
@@ -116,6 +116,8 @@ interface Collection<T> {
 }
 ```
 
+[Back to top](#typescript)
+
 ### Що таке інтерфейс у TypeScript?
 
 Інтерфейс — це **віртуальна структура, яка існує лише в контексті TypeScript**.
@@ -135,6 +137,8 @@ interface Collection<T> {
 * Інтерфейс може бути використаний у виразі `extends` або `implements`, а псевдонім для літералу об'єктного типу – ні.
 
 * Інтерфейс може мати **кілька об'єднаних об'яв**, а при використанні ключового слова type ця можливість не доступна.
+
+[Back to top](#typescript)
 
 ### Як працювати з масивами в TypeScript?
 
@@ -212,6 +216,8 @@ const primaryColors: [string, string, string] = [
 let list : Array<number>=[1,2,3,4,5];
 ```
 
+[Back to top](#typescript)
+
 ### Поясніть generics (узагальнення) у TypeScript
 
 Узагальнені типи (**generics**) дозволяють створювати **компоненти** чи **функції**, які можуть працювати **з різними типами даних**, а не з одним.
@@ -228,6 +234,8 @@ queue.push(0);
 queue.push("1"); // ERROR : cannot push a string. Only numbers allowed
 ```
 
+[Back to top](#typescript)
+
 ### Що таке Enum і як він реалізується в TypeScript?
 
 `Enum` TypeScript представляє собою **структуру даних постійної довжини, яка містить набір констант**. 
@@ -243,6 +251,8 @@ enum Color {
 }
 let c: Color = Color.Green;
 ```
+
+[Back to top](#typescript)
 
 ### Що таке Union type?
 
@@ -277,6 +287,8 @@ isBusinessDay("Whensday");
 Коли **union types відомі під час компіляції**, ми можемо замість цього використовувати **генерики**, щоб забезпечити **додаткову безпеку та гнучкість типів**. Якщо типи відомі заздалегідь, немає необхідності використовувати тип об’єднання.
 
 [Article](https://camchenry.com/blog/typescript-union-type)
+
+[Back to top](#typescript)
 
 ### Які є universal та impossible типи?
 
@@ -323,6 +335,8 @@ function infiniteLoop(): never {
 }
 ```
 
+[Back to top](#typescript)
+
 ### Що таке explicit (явні) та inferred (виведені) типи?
 
 **Explicit** – означає **додавання типу безпосередньо до нашої кодової бази**. Якщо ми додамо такий тип, ми точно знатимемо, який тип ми використовуємо, наприклад:
@@ -360,3 +374,5 @@ getAnimal(animal);
 3. **Explicit help infer types** – це свого роду парадокс, але кожного разу, коли ми додаємо **явний** тип, ми допомагаємо TypeScript **виводити** типи. 
 
 [Article](https://www.typescriptlang.org/docs/handbook/type-inference.html)
+
+[Back to top](#typescript)
