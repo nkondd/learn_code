@@ -22,6 +22,8 @@
 
 11. [Що таке explicit (явні) та inferred (виведені) типи?](#що-таке-explicit-явні-та-inferred-виведені-типи)
 
+12. [Links](#links)
+
 ### What is TypeScript and what is its purpose?
 
 [CheatSheet](https://mate-academy.github.io/fe-program/js/extra/typescript)
@@ -374,5 +376,15 @@ getAnimal(animal);
 3. **Explicit help infer types** – це свого роду парадокс, але кожного разу, коли ми додаємо **явний** тип, ми допомагаємо TypeScript **виводити** типи. 
 
 [Article](https://www.typescriptlang.org/docs/handbook/type-inference.html)
+
+[Back to top](#typescript)
+
+### Links
+
+[TypeScript Interview Questions and Answers](https://github.com/aershov24/typescript-interview-questions)
+
+[Собеседование по TypeScript. Вопросы и ответы.](https://github.com/FedorovAlexander/typescript-interview-questions-ru)
+
+[Собеседование по TypeScript: 20 вопросов и ответов](https://habr.com/ru/company/ruvds/blog/419993/)
 
 [Back to top](#typescript)
